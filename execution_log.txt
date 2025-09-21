@@ -1,0 +1,1384 @@
+Lambda Execution Result (Latest Run):
+INIT_REPORT Init Duration: 10003.05 ms	Phase: init	Status: timeout
+
+=== Experiment Errors ===
+
+/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode
+
+warnings.warn("%s.  joblib will operate in serial mode" % (e,))
+
+2025-09-21 13:24:55,771 - INFO - Starting MoSEs framework demonstration
+
+2025-09-21 13:24:55,771 - INFO - MoSEs framework initialized with 3 prototypes and 16 PCA components
+
+2025-09-21 13:24:55,771 - INFO - Generating training data
+
+2025-09-21 13:24:55,771 - INFO - Generating synthetic data with 500 samples
+
+2025-09-21 13:24:55,778 - INFO - Generating test data
+
+2025-09-21 13:24:55,779 - INFO - Generating synthetic data with 100 samples
+
+2025-09-21 13:24:55,780 - INFO - Building Stylistics Reference Repository with 500 samples
+
+2025-09-21 13:24:55,780 - INFO - Extracting features from 500 texts
+
+2025-09-21 13:24:55,962 - INFO - Created 3 prototypes for style: academic
+
+2025-09-21 13:24:55,977 - INFO - Created 3 prototypes for style: dialogue
+
+2025-09-21 13:24:55,986 - INFO - Created 3 prototypes for style: news
+
+2025-09-21 13:24:55,995 - INFO - Created 3 prototypes for style: story
+
+2025-09-21 13:24:55,995 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:55,995 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:55,997 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:55,997 - INFO - Training Conditional Threshold Estimator on 30 samples
+
+2025-09-21 13:24:56,013 - INFO - CTE model trained successfully with 30 samples
+
+2025-09-21 13:24:56,013 - INFO - Predicting labels for 100 texts
+
+2025-09-21 13:24:56,014 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,014 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,014 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,017 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,017 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,018 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,018 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,018 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,018 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,019 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,019 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,019 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,020 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,020 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,020 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,020 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,020 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,021 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,021 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,021 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,021 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,022 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,022 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,022 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,023 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,023 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,023 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,023 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,023 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,024 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,024 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,024 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,024 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,025 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,025 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,025 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,025 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,025 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,025 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,026 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,026 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,026 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,026 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,026 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,027 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,027 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,027 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,027 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,028 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,028 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,028 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,028 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,029 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,029 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,029 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,029 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,030 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,030 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,030 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,030 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,031 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,031 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,031 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,031 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,032 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,032 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,032 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,032 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,033 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,033 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,033 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,033 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,034 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,034 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,034 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,034 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,035 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,035 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,047 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,048 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,048 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,048 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,048 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,049 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,049 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,049 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,050 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,050 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,050 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,050 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,051 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,051 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,051 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,051 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,052 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,052 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,052 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,053 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,053 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,053 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,053 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,054 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,054 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,054 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,054 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,055 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,055 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,055 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,055 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,067 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,068 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,068 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,068 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,069 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,069 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,069 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,069 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,070 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,070 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,070 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,070 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,071 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,071 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,071 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,071 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,072 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,072 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,072 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,072 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,073 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,073 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,073 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,073 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,074 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,074 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,074 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,074 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,075 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,087 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,088 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,088 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,088 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,088 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,089 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,089 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,089 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,089 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,090 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,090 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,090 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,090 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,091 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,091 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,091 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,091 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,092 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,092 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,092 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,092 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,093 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,093 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,093 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,094 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,094 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,094 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,094 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,095 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,095 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,095 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,095 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,096 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,096 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,096 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,096 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,097 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,097 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,107 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,108 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,108 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,108 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,109 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,109 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,109 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,109 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,109 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,110 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,110 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,110 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,110 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,111 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,111 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,111 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,112 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,112 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,112 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,112 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,112 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,113 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,113 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,113 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,113 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,114 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,114 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,114 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,115 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,115 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,115 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,127 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,128 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,128 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,128 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,128 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,128 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,129 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,129 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,129 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,129 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,130 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,130 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,130 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,130 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,130 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,131 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,131 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,131 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,131 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,131 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,132 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,132 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,132 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,132 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,132 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,133 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,133 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,133 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,133 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,133 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,134 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,134 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,134 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,134 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,134 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,135 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,135 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,135 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,135 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,136 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,136 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,136 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,136 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,136 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,136 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,137 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,137 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,137 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,137 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,137 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,138 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,138 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,138 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,138 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,138 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,139 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,139 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,139 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,139 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,139 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,140 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,140 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,140 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,140 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,140 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,141 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,141 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,141 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,141 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,141 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,142 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,142 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,142 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,142 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,142 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,143 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,143 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,143 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,143 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,143 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,144 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,144 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,144 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,144 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,145 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,145 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,145 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,145 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,145 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,145 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,146 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:56,146 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:56,146 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:56,149 - INFO - Evaluation Results:
+
+2025-09-21 13:24:56,149 - INFO - Accuracy: 48.00%
+
+2025-09-21 13:24:56,150 - INFO - F1 Score: 0.4583
+
+2025-09-21 13:24:56,150 - INFO - Confidence range: 0.50 - 1.00
+
+2025-09-21 13:24:56,150 - INFO - Sample predictions:
+
+2025-09-21 13:24:56,150 - INFO - Text 1: Predicted=AI, Actual=AI, Confidence=0.88
+
+2025-09-21 13:24:56,150 - INFO - Text 2: Predicted=Human, Actual=AI, Confidence=0.76
+
+2025-09-21 13:24:56,150 - INFO - Text 3: Predicted=Human, Actual=AI, Confidence=0.98
+
+2025-09-21 13:24:56,150 - INFO - Text 4: Predicted=AI, Actual=Human, Confidence=0.88
+
+2025-09-21 13:24:56,150 - INFO - Text 5: Predicted=Human, Actual=AI, Confidence=0.90
+
+2025-09-21 13:24:56,150 - INFO - MoSEs framework demonstration completed successfully
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "",
+
+"stderr": "/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode\n  warnings.warn(\"%s.  joblib will operate in serial mode\" % (e,))\n2025-09-21 13:24:55,771 - INFO - Starting MoSEs framework demonstration\n2025-09-21 13:24:55,771 - INFO - MoSEs framework initialized with 3 prototypes and 16 PCA components\n2025-09-21 13:24:55,771 - INFO - Generating training data\n2025-09-21 13:24:55,771 - INFO - Generating synthetic data with 500 samples\n2025-09-21 13:24:55,778 - INFO - Generating test data\n2025-09-21 13:24:55,779 - INFO - Generating synthetic data with 100 samples\n2025-09-21 13:24:55,780 - INFO - Building Stylistics Reference Repository with 500 samples\n2025-09-21 13:24:55,780 - INFO - Extracting features from 500 texts\n2025-09-21 13:24:55,962 - INFO - Created 3 prototypes for style: academic\n2025-09-21 13:24:55,977 - INFO - Created 3 prototypes for style: dialogue\n2025-09-21 13:24:55,986 - INFO - Created 3 prototypes for style: news\n2025-09-21 13:24:55,995 - INFO - Created 3 prototypes for style: story\n2025-09-21 13:24:55,995 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:55,995 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:55,997 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:55,997 - INFO - Training Conditional Threshold Estimator on 30 samples\n2025-09-21 13:24:56,013 - INFO - CTE model trained successfully with 30 samples\n2025-09-21 13:24:56,013 - INFO - Predicting labels for 100 texts\n2025-09-21 13:24:56,014 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,014 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,014 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,017 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,017 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,018 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,018 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,018 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,018 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,019 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,019 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,019 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,020 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,020 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,020 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,020 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,020 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,021 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,021 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,021 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,021 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,022 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,022 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,022 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,023 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,023 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,023 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,023 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,023 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,024 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,024 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,024 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,024 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,025 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,025 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,025 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,025 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,025 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,025 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,026 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,026 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,026 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,026 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,026 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,027 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,027 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,027 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,027 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,028 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,028 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,028 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,028 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,029 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,029 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,029 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,029 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,030 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,030 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,030 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,030 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,031 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,031 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,031 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,031 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,032 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,032 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,032 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,032 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,033 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,033 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,033 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,033 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,034 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,034 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,034 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,034 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,035 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,035 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,047 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,048 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,048 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,048 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,048 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,049 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,049 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,049 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,050 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,050 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,050 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,050 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,051 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,051 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,051 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,051 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,052 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,052 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,052 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,053 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,053 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,053 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,053 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,054 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,054 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,054 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,054 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,055 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,055 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,055 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,055 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,067 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,068 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,068 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,068 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,069 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,069 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,069 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,069 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,070 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,070 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,070 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,070 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,071 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,071 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,071 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,071 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,072 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,072 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,072 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,072 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,073 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,073 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,073 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,073 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,074 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,074 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,074 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,074 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,075 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,087 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,088 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,088 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,088 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,088 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,089 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,089 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,089 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,089 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,090 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,090 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,090 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,090 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,091 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,091 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,091 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,091 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,092 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,092 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,092 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,092 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,093 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,093 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,093 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,094 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,094 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,094 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,094 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,095 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,095 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,095 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,095 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,096 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,096 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,096 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,096 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,097 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,097 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,107 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,108 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,108 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,108 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,109 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,109 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,109 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,109 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,109 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,110 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,110 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,110 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,110 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,111 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,111 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,111 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,112 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,112 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,112 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,112 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,112 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,113 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,113 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,113 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,113 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,114 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,114 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,114 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,115 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,115 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,115 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,127 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,128 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,128 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,128 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,128 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,128 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,129 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,129 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,129 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,129 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,130 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,130 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,130 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,130 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,130 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,131 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,131 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,131 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,131 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,131 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,132 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,132 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,132 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,132 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,132 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,133 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,133 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,133 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,133 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,133 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,134 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,134 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,134 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,134 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,134 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,135 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,135 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,135 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,135 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,136 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,136 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,136 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,136 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,136 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,136 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,137 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,137 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,137 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,137 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,137 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,138 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,138 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,138 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,138 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,138 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,139 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,139 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,139 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,139 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,139 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,140 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,140 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,140 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,140 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,140 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,141 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,141 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,141 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,141 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,141 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,142 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,142 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,142 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,142 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,142 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,143 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,143 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,143 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,143 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,143 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,144 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,144 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,144 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,144 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,145 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,145 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,145 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,145 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,145 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,145 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,146 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:56,146 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:56,146 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:56,149 - INFO - Evaluation Results:\n2025-09-21 13:24:56,149 - INFO - Accuracy: 48.00%\n2025-09-21 13:24:56,150 - INFO - F1 Score: 0.4583\n2025-09-21 13:24:56,150 - INFO - Confidence range: 0.50 - 1.00\n2025-09-21 13:24:56,150 - INFO - Sample predictions:\n2025-09-21 13:24:56,150 - INFO - Text 1: Predicted=AI, Actual=AI, Confidence=0.88\n2025-09-21 13:24:56,150 - INFO - Text 2: Predicted=Human, Actual=AI, Confidence=0.76\n2025-09-21 13:24:56,150 - INFO - Text 3: Predicted=Human, Actual=AI, Confidence=0.98\n2025-09-21 13:24:56,150 - INFO - Text 4: Predicted=AI, Actual=Human, Confidence=0.88\n2025-09-21 13:24:56,150 - INFO - Text 5: Predicted=Human, Actual=AI, Confidence=0.90\n2025-09-21 13:24:56,150 - INFO - MoSEs framework demonstration completed successfully\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 2034.56 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
+
+START RequestId: e28d025c-4e8a-4af9-ab6d-ac99343a22ea Version: $LATEST
+
+RequestId: e28d025c-4e8a-4af9-ab6d-ac99343a22ea Error: Runtime exited without providing a reason
+Runtime.ExitError
+
+END RequestId: e28d025c-4e8a-4af9-ab6d-ac99343a22ea
+
+REPORT RequestId: e28d025c-4e8a-4af9-ab6d-ac99343a22ea	Duration: 2036.08 ms	Billed Duration: 2037 ms	Memory Size: 3008 MB	Max Memory Used: 92 MB	
+
+=== Experiment Errors ===
+
+/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode
+
+warnings.warn("%s.  joblib will operate in serial mode" % (e,))
+
+2025-09-21 13:24:57,150 - INFO - Starting MoSEs framework demonstration
+
+2025-09-21 13:24:57,150 - INFO - MoSEs framework initialized with 3 prototypes and 16 PCA components
+
+2025-09-21 13:24:57,150 - INFO - Generating training data
+
+2025-09-21 13:24:57,150 - INFO - Generating synthetic data with 500 samples
+
+2025-09-21 13:24:57,157 - INFO - Generating test data
+
+2025-09-21 13:24:57,157 - INFO - Generating synthetic data with 100 samples
+
+2025-09-21 13:24:57,159 - INFO - Building Stylistics Reference Repository with 500 samples
+
+2025-09-21 13:24:57,159 - INFO - Extracting features from 500 texts
+
+2025-09-21 13:24:57,213 - INFO - Created 3 prototypes for style: story
+
+2025-09-21 13:24:57,232 - INFO - Created 3 prototypes for style: academic
+
+2025-09-21 13:24:57,250 - INFO - Created 3 prototypes for style: news
+
+2025-09-21 13:24:57,269 - INFO - Created 3 prototypes for style: dialogue
+
+2025-09-21 13:24:57,269 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,270 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,270 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,270 - INFO - Training Conditional Threshold Estimator on 30 samples
+
+2025-09-21 13:24:57,274 - INFO - CTE model trained successfully with 30 samples
+
+2025-09-21 13:24:57,274 - INFO - Predicting labels for 100 texts
+
+2025-09-21 13:24:57,274 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,274 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,275 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,275 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,275 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,276 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,276 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,276 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,276 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,277 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,277 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,277 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,277 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,278 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,287 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,288 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,288 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,288 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,289 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,289 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,289 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,289 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,289 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,290 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,290 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,290 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,291 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,291 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,291 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,291 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,292 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,292 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,292 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,292 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,293 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,293 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,293 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,293 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,294 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,294 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,294 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,294 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,295 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,295 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,295 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,295 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,296 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,296 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,296 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,296 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,297 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,297 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,297 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,297 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,298 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,298 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,298 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,298 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,299 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,299 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,307 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,307 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,308 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,308 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,308 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,308 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,309 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,309 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,309 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,309 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,310 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,310 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,310 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,310 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,311 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,311 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,311 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,311 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,312 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,312 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,312 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,312 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,313 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,313 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,313 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,313 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,314 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,314 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,314 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,315 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,315 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,315 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,315 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,316 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,316 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,316 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,316 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,317 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,317 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,317 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,317 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,318 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,318 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,318 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,318 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,319 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,319 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,319 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,319 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,320 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,320 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,320 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,320 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,320 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,321 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,321 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,321 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,321 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,321 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,321 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,322 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,322 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,322 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,322 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,322 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,323 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,323 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,327 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,327 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,328 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,328 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,328 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,328 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,329 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,329 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,329 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,329 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,330 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,330 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,330 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,330 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,331 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,331 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,331 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,331 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,332 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,332 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,332 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,332 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,333 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,333 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,333 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,333 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,334 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,334 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,334 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,334 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,335 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,335 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,335 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,347 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,348 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,348 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,348 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,348 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,349 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,349 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,349 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,350 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,350 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,350 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,350 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,350 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,351 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,351 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,351 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,352 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,352 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,352 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,352 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,353 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,353 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,353 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,353 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,354 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,354 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,354 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,354 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,355 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,355 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,355 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,355 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,356 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,356 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,356 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,356 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,357 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,357 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,357 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,357 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,358 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,358 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,358 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,358 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,359 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,367 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,368 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,368 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,368 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,368 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,369 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,369 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,369 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,369 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,370 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,370 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,370 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,370 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,371 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,371 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,371 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,371 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,372 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,372 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,372 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,372 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,373 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,373 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,373 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,373 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,374 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,374 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,374 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,374 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,375 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,375 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,375 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,375 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,376 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,376 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,376 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,376 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,376 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,377 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,377 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,377 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,377 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,377 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,378 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,378 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,378 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,378 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,379 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,379 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,379 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,387 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,388 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,388 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,388 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,388 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,389 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,389 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,389 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,389 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,390 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,390 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,390 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,390 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,390 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,391 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,391 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,391 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,391 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,393 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,393 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,394 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,394 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,394 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,394 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,395 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,395 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,395 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,395 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,395 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,396 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,396 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,396 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,396 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,396 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,397 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,397 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,397 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,397 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,397 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,398 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,398 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,398 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,398 - INFO - Extracting features from 1 texts
+
+2025-09-21 13:24:57,399 - INFO - Routing text to nearest prototypes
+
+2025-09-21 13:24:57,399 - INFO - Activated 30 reference samples via 3 nearest prototypes
+
+2025-09-21 13:24:57,402 - INFO - Evaluation Results:
+
+2025-09-21 13:24:57,402 - INFO - Accuracy: 58.00%
+
+2025-09-21 13:24:57,402 - INFO - F1 Score: 0.5800
+
+2025-09-21 13:24:57,402 - INFO - Confidence range: 0.53 - 1.00
+
+2025-09-21 13:24:57,402 - INFO - Sample predictions:
+
+2025-09-21 13:24:57,402 - INFO - Text 1: Predicted=AI, Actual=AI, Confidence=0.77
+
+2025-09-21 13:24:57,402 - INFO - Text 2: Predicted=AI, Actual=AI, Confidence=0.79
+
+2025-09-21 13:24:57,402 - INFO - Text 3: Predicted=Human, Actual=AI, Confidence=0.65
+
+2025-09-21 13:24:57,402 - INFO - Text 4: Predicted=Human, Actual=Human, Confidence=0.86
+
+2025-09-21 13:24:57,402 - INFO - Text 5: Predicted=AI, Actual=AI, Confidence=0.79
+
+2025-09-21 13:24:57,402 - INFO - MoSEs framework demonstration completed successfully
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "",
+
+"stderr": "/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode\n  warnings.warn(\"%s.  joblib will operate in serial mode\" % (e,))\n2025-09-21 13:24:57,150 - INFO - Starting MoSEs framework demonstration\n2025-09-21 13:24:57,150 - INFO - MoSEs framework initialized with 3 prototypes and 16 PCA components\n2025-09-21 13:24:57,150 - INFO - Generating training data\n2025-09-21 13:24:57,150 - INFO - Generating synthetic data with 500 samples\n2025-09-21 13:24:57,157 - INFO - Generating test data\n2025-09-21 13:24:57,157 - INFO - Generating synthetic data with 100 samples\n2025-09-21 13:24:57,159 - INFO - Building Stylistics Reference Repository with 500 samples\n2025-09-21 13:24:57,159 - INFO - Extracting features from 500 texts\n2025-09-21 13:24:57,213 - INFO - Created 3 prototypes for style: story\n2025-09-21 13:24:57,232 - INFO - Created 3 prototypes for style: academic\n2025-09-21 13:24:57,250 - INFO - Created 3 prototypes for style: news\n2025-09-21 13:24:57,269 - INFO - Created 3 prototypes for style: dialogue\n2025-09-21 13:24:57,269 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,270 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,270 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,270 - INFO - Training Conditional Threshold Estimator on 30 samples\n2025-09-21 13:24:57,274 - INFO - CTE model trained successfully with 30 samples\n2025-09-21 13:24:57,274 - INFO - Predicting labels for 100 texts\n2025-09-21 13:24:57,274 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,274 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,275 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,275 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,275 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,276 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,276 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,276 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,276 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,277 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,277 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,277 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,277 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,278 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,287 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,288 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,288 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,288 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,289 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,289 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,289 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,289 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,289 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,290 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,290 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,290 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,291 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,291 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,291 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,291 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,292 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,292 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,292 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,292 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,293 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,293 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,293 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,293 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,294 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,294 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,294 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,294 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,295 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,295 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,295 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,295 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,296 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,296 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,296 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,296 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,297 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,297 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,297 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,297 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,298 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,298 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,298 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,298 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,299 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,299 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,307 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,307 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,308 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,308 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,308 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,308 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,309 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,309 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,309 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,309 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,310 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,310 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,310 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,310 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,311 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,311 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,311 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,311 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,312 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,312 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,312 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,312 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,313 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,313 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,313 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,313 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,314 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,314 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,314 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,315 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,315 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,315 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,315 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,316 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,316 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,316 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,316 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,317 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,317 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,317 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,317 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,318 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,318 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,318 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,318 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,319 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,319 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,319 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,319 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,320 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,320 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,320 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,320 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,320 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,321 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,321 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,321 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,321 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,321 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,321 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,322 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,322 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,322 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,322 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,322 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,323 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,323 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,327 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,327 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,328 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,328 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,328 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,328 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,329 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,329 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,329 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,329 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,330 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,330 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,330 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,330 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,331 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,331 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,331 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,331 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,332 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,332 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,332 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,332 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,333 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,333 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,333 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,333 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,334 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,334 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,334 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,334 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,335 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,335 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,335 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,347 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,348 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,348 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,348 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,348 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,349 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,349 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,349 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,350 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,350 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,350 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,350 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,350 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,351 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,351 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,351 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,352 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,352 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,352 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,352 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,353 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,353 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,353 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,353 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,354 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,354 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,354 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,354 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,355 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,355 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,355 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,355 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,356 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,356 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,356 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,356 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,357 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,357 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,357 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,357 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,358 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,358 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,358 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,358 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,359 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,367 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,368 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,368 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,368 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,368 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,369 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,369 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,369 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,369 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,370 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,370 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,370 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,370 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,371 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,371 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,371 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,371 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,372 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,372 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,372 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,372 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,373 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,373 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,373 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,373 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,374 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,374 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,374 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,374 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,375 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,375 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,375 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,375 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,376 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,376 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,376 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,376 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,376 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,377 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,377 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,377 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,377 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,377 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,378 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,378 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,378 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,378 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,379 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,379 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,379 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,387 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,388 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,388 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,388 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,388 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,389 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,389 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,389 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,389 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,390 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,390 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,390 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,390 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,390 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,391 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,391 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,391 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,391 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,393 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,393 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,394 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,394 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,394 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,394 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,395 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,395 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,395 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,395 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,395 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,396 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,396 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,396 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,396 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,396 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,397 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,397 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,397 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,397 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,397 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,398 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,398 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,398 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,398 - INFO - Extracting features from 1 texts\n2025-09-21 13:24:57,399 - INFO - Routing text to nearest prototypes\n2025-09-21 13:24:57,399 - INFO - Activated 30 reference samples via 3 nearest prototypes\n2025-09-21 13:24:57,402 - INFO - Evaluation Results:\n2025-09-21 13:24:57,402 - INFO - Accuracy: 58.00%\n2025-09-21 13:24:57,402 - INFO - F1 Score: 0.5800\n2025-09-21 13:24:57,402 - INFO - Confidence range: 0.53 - 1.00\n2025-09-21 13:24:57,402 - INFO - Sample predictions:\n2025-09-21 13:24:57,402 - INFO - Text 1: Predicted=AI, Actual=AI, Confidence=0.77\n2025-09-21 13:24:57,402 - INFO - Text 2: Predicted=AI, Actual=AI, Confidence=0.79\n2025-09-21 13:24:57,402 - INFO - Text 3: Predicted=Human, Actual=AI, Confidence=0.65\n2025-09-21 13:24:57,402 - INFO - Text 4: Predicted=Human, Actual=Human, Confidence=0.86\n2025-09-21 13:24:57,402 - INFO - Text 5: Predicted=AI, Actual=AI, Confidence=0.79\n2025-09-21 13:24:57,402 - INFO - MoSEs framework demonstration completed successfully\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 1211.36 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+
